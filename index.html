@@ -22,6 +22,14 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <!--Tambahan Sticky Button
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+  <style>
+    .text-justify {
+      text-align: justify;
+    }
+  </style>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -36,15 +44,19 @@
 </head>
 
 <body>
+  <!-- Sticky Button-->
+  <a href="https://wa.me/1234567890" target="_blank" class="sticky-btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+  </a>
+  <!--/Sticky Button-->
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Ruang Harum</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="assets/img/logo-remove.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -73,7 +85,7 @@
     <div class="container text-center text-md-left" data-aos="fade-up">
       <h1>Selamat Datang Di<span> Ruang Harum</span></h1>
       <h2>Harumkan Setiap Sudut dengan Ruang Harum</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <a class="btn-get-started scrollto bi bi-whatsapp" href="https://wa.me/089520691333"> Hubungi kami</a>
     </div>
   </section><!-- End Hero -->
 
@@ -83,61 +95,38 @@
     <section id="about" class="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 pt-4 pt-lg-0 section-title">
+            <h3>Tentang Kami</h3>
+            <img src="assets/img/gedung.jpeg" class="img-fluid"" alt="">
+            <br>
+              <p class="text-justify">
+                Ruang Harum adalah perusahaan yang bergerak di bidang jasa pengharum ruangan,
+                dengan fokus pada penggunaan mesin scenting aroma. Dengan dedikasi terhadap
+                inovasi dan kualitas, Ruang Harum berusaha menjadi pilihan utama bagi pelanggan
+                yang mencari pengharum ruangan yang efektif dan menyeluruh. Melalui pemanfaatan
+                teknologi canggih dan pemahaman mendalam tentang preferensi pengguna, Ruang
+                Harum menyediakan solusi pengharum ruangan yang tidak hanya menyegarkan, tetapi
+                juga meningkatkan pengalaman sensorik di berbagai lingkungan, mulai dari ruang
+                komersial hingga tempat tinggal.<br>
+                Dengan fokus pada kepuasan pelanggan dan komitmen terhadap standar
+                kualitas yang tinggi, Ruang Harum terus menjelajahi peluang baru dalam
+                industri pengharuman. Tujuan utamanya adalah menciptakan lingkungan yang
+                lebih menyenangkan dan nyaman.
+              </p>
+            <ul>
+            </ul>
+              <div class="row icon-boxes">
+              </div>
           </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <h3>Tentang Kami</h3>
-                <p>
-                  Selamat datang di Ruang Harum, tempat terbaik untuk produk pewangi ruangan dan mobil. Kami berkomitmen menghadirkan aroma yang dapat menyegarkan dan meningkatkan kenyamanan setiap ruang. Menggunakan bahan berkualitas dan teknologi canggih, produk kami dirancang untuk memberikan keharuman yang tahan lama dan aman.Tim ahli kami terus berinovasi untuk menghadirkan pilihan aroma terbaik bagi Anda. Kami juga berfokus pada layanan pelanggan yang unggul untuk memastikan pengalaman berbelanja yang memuaskan.Terima kasih telah memilih Ruang Harum. Bersama kami, ciptakan momen istimewa dengan aroma yang menginspirasi.
-                </p>
-              <ul>
-              </ul>
-                <div class="row icon-boxes">
-                </div>
-            </div>
+          <div class="col-lg-5">
+            <img src="assets/img/freetrial.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-3">
+            <img src="assets/img/marketing4.png" class="img-fluid" alt="">
+          </div>
         </div>
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= What We Do Section ======= -->
-    <!--<section id="what-we-do" class="what-we-do">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Ada Apa di Ruang Harum</h2>
-          <p>Temukan berbagai informasi menarik</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>--><!-- End What We Do Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -152,55 +141,56 @@
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Pewangi Ruangan</li>
-              <li data-filter=".filter-card">Pewangi Mobil</li>
+              <li data-filter=".filter-app">Device</li>
+              <li data-filter=".filter-card">Aroma/Rasa</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" >
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/device1.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/device1.png" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 1</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Boost 400</a></h4>
+                <p>Jangkauan: 700M3, Power: 8 Watt, Dimensi: L 15,5 cm X W 7,5 cm X H 21,2 cm</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" >
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/device2.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/device2.png" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Boost 800</a></h4>
+                <p>Jangkauan: 1500M3, Power: 17 Watt, Dimensi: L 22,2 cm X W 25,5 cm X H 10,8 cm</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/oil_scenting_varian.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/oil_scenting_varian.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 2</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">LEMOGRASS</a></h4>
+                <p>Ambiance : Segar, Energi, Alami, Relaksasi, Hangat.</p>
               </div>
             </div>
           </div>
@@ -208,59 +198,15 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/SANDALWOOD SYMPHONY.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/SANDALWOOD SYMPHONY.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 2</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-5.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-6.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 3</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-7.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 1</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">SANDALWOOD SYMPHONY</h4>
+                <p>Ambiance : menghadirkan suasana yang eksklusif dan memanjakan
+                  indera</p>
               </div>
             </div>
           </div>
@@ -268,29 +214,121 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-8.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/CRANBERRY.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/CRANBERRY.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 3</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">CRANBERRY</a></h4>
+                <p>Ambiance : energi, ceria, segar, sentuhan musim semi dan musim
+                  gugur.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-9.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="assets/img/Produk/SIRENA.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/SIRENA.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 1</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">SIRENA</a></h4>
+                <p>Ambiance : ketenangan pantai, kesegaran buah, dan lingkungan yang
+                  menyenangkan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/GREEN TEA.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/GREEN TEA.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">GREEN TEA</a></h4>
+                <p>Ambiance : rileks, segar, natural, mewah</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/VANILLA MANGO.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/VANILLA MANGO.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">VANILLA MANGO</a></h4>
+                <p>Ambiance : rileks, segar, natural, hangat, nyaman, damai.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/BLUE SEDUCTIVE.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/BLUE SEDUCTIVE.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">BLUE SEDUCTIVE</a></h4>
+                <p>Ambiance : Segar, mewah, romantis, elegan.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/ROSE GLAMOUR.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/ROSE GLAMOUR.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">ROSE GLAMOUR</a></h4>
+                <p>Ambiance :romantis, hangat, mewah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/FRESH JASMINE.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/FRESH JASMINE.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">FRESH JASMINE</a></h4>
+                <p>Ambiance : tenang, harmonis, segar, fresh</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/Produk/COFFEE.png" class="img-fluid" alt="">
+                <a href="assets/img/Produk/COFFEE.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">COFFEE</a></h4>
+                <p>Ambiance : tenang, hangat, nyaman, relaksasi.</p>
               </div>
             </div>
           </div>
@@ -379,18 +417,112 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="counts" class="counts team">
       <div class="container">
-        <div class="info-wrap">
         <div class="section-title">
-          <h2>BERLANGGANAN</h2>
-          <p>HUBUNGI KAMI</p><br>
-          <a class="btn btn-success" href="https://wa.me/089520691333">Whatsapp</a>
+          <h2>Layanan Ruang Harum untuk berbagai kebutuhan bisnis</h2>
         </div>
+        <div class="row section-title mt-4 mt-md-0">
+          <div class="col-lg-3 col-6">
+            <div class="count-box">
+              <i class="bi bi-building-fill"></i>
+              <p>Kantor & Rumah</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="count-box">
+              <i class="bi bi-buildings"></i>
+              <p>Hotel</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-shop-window"></i>
+              <p>Restoran</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-bag"></i>
+              <p>Retail & Pertokoan</p>
+            </div>
+          </div>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+      
+      <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Tips & Trick</h2>
+          <p>Beberapa Trick & Trip Supaya Ruangan Selalu Harum</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/tips/tips3.png" class="img-fluid" alt="">
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <p>
+                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/tips/tips2.png" class="img-fluid" alt="">
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <p>
+                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/tips/tips1.png" class="img-fluid" alt="">
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <p>
+                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="client" class="client section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <img src="assets/img/logo-honda.png" class="img-fluid1" alt="Image 1">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <img src="assets/img/client/garuda.png" class="img-fluid1" alt="Image 2">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <img src="assets/img/client/kfc.png" class="img-fluid1" alt="Image 3">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <img src="assets/img/client/m.png" class="img-fluid1" alt="Image 4">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <img src="assets/img/client/Yamaha.png" class="img-fluid1" alt="Image 5">
+            </div>
+          </div>
+          </div>
+      </section><!-- End About Section -->
 
   </main><!-- End #main -->
 
@@ -402,7 +534,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Ruang Harum</h3>
+            <img src="assets/img/logo-remove.png" alt="" class="img-fluid" width="120px">
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
@@ -473,6 +605,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!--Tambahan Sticky Button-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
